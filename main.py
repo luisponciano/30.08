@@ -160,7 +160,7 @@ def main():
             label = "Rio de Janeiro • Pontos", 
             method = "update", 
             args = [
-                {"visible":[True, False, False, False]},
+                {"visible":[False, False, True, False]},
                 {"mapbox": center_zoom(rj, 10)}
             ]
         ),
@@ -168,7 +168,7 @@ def main():
             label = "Rio de Janeiro • Calor", 
             method = "update", 
             args = [
-                {"visible":[True, False, False, False]},
+                {"visible":[False, False, False, True]},
                 {"mapbox": center_zoom(rj, 10)}
             ]
         )
